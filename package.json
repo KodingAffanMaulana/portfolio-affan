@@ -1,0 +1,46 @@
+{
+  "name": "@gits-id/nuxt-minimal",
+  "description": "Lightweight Nuxt.js template with GITS UI",
+  "version": "0.1.0",
+  "keywords": [
+    "admin",
+    "dashboard",
+    "template",
+    "nuxt",
+    "nuxt.js",
+    "vue",
+    "vue.js",
+    "gits",
+    "gits-id",
+    "gits-ui"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@gits-id/ui-nuxt": "^0.16.1",
+    "@nuxtjs/google-fonts": "^2.0.0",
+    "express": "^4.18.2",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "nuxt": "^3.2.0",
+    "sass": "^1.58.0",
+    "vue-particles": "^1.0.9"
+  },
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "files": [
+    "components/",
+    "pages/",
+    "app.vue",
+    "app.config.ts",
+    "nuxt.config.ts",
+    "tailwind.config.js"
+  ]
+}
