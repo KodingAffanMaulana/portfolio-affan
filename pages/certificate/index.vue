@@ -1,11 +1,10 @@
 <template>
   <main
-    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:pt-0"
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-12"
   >
     <div class="drop-shadow-2xl">
       <section id="education" class="p-4 lg:p-8 bg-white">
         <div class="flex flex-col items-center justify-center text-center">
-          <FiAward size="4rem" rounded="50%" class="grayscale" />
           <h1
             class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-4"
           >

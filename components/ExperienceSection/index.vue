@@ -1,5 +1,5 @@
 <template>
-  <div class="experience py-10">
+  <div class="py-10">
     <div class="mb-5 flex flex-col items-center justify-center text-center">
       <img src="@/assets/icons/suitcase.png" alt="logo"  class="w-16 mb-3 mx-auto" />
       <h4 class="font-bold text-blue-600">Experience</h4>

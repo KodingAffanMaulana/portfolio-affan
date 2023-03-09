@@ -5,12 +5,13 @@
       Programming is not about Typing. It's about Thinking.
     </h2>
     <p class="md:w-4/5 mb-8 text-sm md:text-base">
-      I am a graduate of a vocational school majoring in software engineering
-      who has a great interest in programming.
+      I am an undergraduate student in Informatics Engineering who is currently
+      studying at the University of Lampung. I have an interest in the field of
+      Frontend Web Developer.
     </p>
     <a
       href="https://google.com"
-      class="px-6 py-3 rounded-full bg-blue-600 text-white rounded transition hover:bg-blue-700"
+      class="px-6 py-3 rounded-full bg-blue-600 text-white rounded ease-in duration-300 hover:bg-blue-700"
       >Download CV</a
     >
   </div>

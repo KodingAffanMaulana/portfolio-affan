@@ -1,9 +1,10 @@
 <template>
-  <main class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:pt-0">
+  <main
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-12"
+  >
     <div class="drop-shadow-2xl">
       <section id="project" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
         <div class="flex flex-col items-center justify-center text-center">
-          <VscSymbolNamespace size="4rem" rounded="50%" class="grayscale" />
           <h1
             class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-8"
           >
@@ -11,246 +12,34 @@
           </h1>
           <br />
         </div>
-        <div
-          class="sm:flex-col md:flex-col lg:flex-row flex-col gap-[10%] pb-8"
-        >
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">
-              Website Galeri Photo
-            </h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://fanphotos.netlify.app/"
-                target="_blank"
-                >(https://fanphotos.netlify.app/)</Link
+        <div class="grid lg:grid-cols-4 lg:gap-4 lg:pb-8">
+          <article
+            v-for="(project, index) in projects"
+            :key="index"
+            class="pb-4 lg:pb-8 shadow-xl p-8 hover:border-2 hover:border-blue-500 rounded-xl hover:shadow-blue-200"
+          >
+            <div>
+              <h2 class="font-bold text-[13px] sm:text-xl text-center pb-2">
+                {{ project.title }}
+              </h2>
+              <p
+                class="text-[10px] text-sm pb-2 text-justify"
               >
-            </p>
-            <img
-              rounded="2xl"
-              src="{fanphotos}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">Pokemon Website</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://fanpokemon.netlify.app/"
+                {{ project.desc }}
+              </p>
+              <img
+                :src="project.url"
+                alt="fanphotos"
+                class="object-fit cover rounded-xl pb-4"
+              />
+            </div>
+            <button class="text-[10px] sm:text-[14px] flex mx-auto rounded-xl justify-beetween py-1 px-4 bg-blue-500 text-white hover:border-2 hover:border-blue-500 hover:bg-white hover:text-blue-500">
+              <a
+                :href="project.link"
                 target="_blank"
-                >(https://fanpokemon.netlify.app/)</Link
-              >
-            </p>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://github.com/KodingAffanMaulana/react-assignment-2-v4"
-                target="_blank"
-                >(https://github.com/KodingAffanMaulana/react-assignment-2-v4)</Link
-              >
-            </p>
-            <img
-              rounded="2xl"
-              src="{pokefan}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">FanYugiOh! Website</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://fanyugioh.netlify.app/"
-                target="_blank"
-                >(https://fanyugioh.netlify.app/)</Link
-              >
-            </p>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://github.com/KodingAffanMaulana/react-final-project-v1"
-                target="_blank"
-                >(https://github.com/KodingAffanMaulana/react-final-project-v1)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{fanyugi}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">Starwars Proyek</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://github.com/KodingAffanMaulana/react-exercise-7-v1"
-                target="_blank"
-                >(https://github.com/KodingAffanMaulana/react-exercise-7-v1)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{star}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">Kalkulator Proyek</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://kodingaffanmaulana.github.io/My-Kalkulator/"
-                target="_blank"
-                >(https://kodingaffanmaulana.github.io/My-Kalkulator/)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{calc}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">BookShelf Proyek</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://kodingaffanmaulana.github.io/bookshelf-apps/"
-                target="_blank"
-                >(https://kodingaffanmaulana.github.io/bookshelf-apps/)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{book}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">
-              Proyek Fetch Data Todolist
-            </h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link proyek
-              <Link
-                class="hover:text-blue-300"
-                href="https://github.com/KodingAffanMaulana/react-assignment-v1"
-                target="_blank"
-                >(https://github.com/KodingAffanMaulana/react-assignment-v1)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{fetchdatatodolist}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article>
-            <h2 class="font-bold text-[13px] sm:text-xl hover:text-blue-300">
-              Coming soon
-            </h2>
-          </article>
-        </div>
-      </section>
-    </div>
-
-    <br />
-
-    <div className="drop-shadow-2xl">
-      <section id="education" class="p-8 lg:px-[10rem] lg:py-16 bg-white">
-        <h1
-          class="font-bold text-[14px] sm:text-2xl text-lime-800 pb-1 sm:pb-3"
-        >
-          Web Statis
-        </h1>
-        <div class="sm:flex-col md:f8lex-col lg:flex-row flex-col gap-[10%]">
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">
-              Website Porto Sertifikat
-            </h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://affanmaulana-fp.netlify.app/"
-                target="_blank"
-                >(https://affanmaulana-fp.netlify.app/)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{portoserti}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">
-              Website LiburanLampung
-            </h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://kodingaffanmaulana.github.io/Projek2/"
-                target="_blank"
-                >(https://kodingaffanmaulana.github.io/Projek2/)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{liburan}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">Website Coffe</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://kodingaffanmaulana.github.io/kedaiKopi/"
-                target="_blank"
-                >(https://kodingaffanmaulana.github.io/kedaiKopi/)</Link
-              >
-            </p>
-            <Image rounded="2xl" src={kopi} alt="fanphotos" class="object-fit cover" />
-          </article>
-          <article class="pb-4 lg:pb-8">
-            <h2 class="font-bold text-[13px] sm:text-xl">Website Bandung</h2>
-            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">
-              Link website
-              <Link
-                class="hover:text-blue-300"
-                href="https://kodingaffanmaulana.github.io/Belajar-WEB-Dicoding/"
-                target="_blank"
-                >(https://kodingaffanmaulana.github.io/Belajar-WEB-Dicoding/)</Link
-              >
-            </p>
-            <Image
-              rounded="2xl"
-              src="{bdg}"
-              alt="fanphotos"
-              class="object-fit cover"
-            />
+                rel="noopener noreferrer"
+              >Details</a>
+            </button>
           </article>
         </div>
       </section>
@@ -258,6 +47,57 @@
   </main>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+const projects = ref([
+  {
+    title: "Gallery Photo Web",
+    url: "https://iili.io/HXCyTHx.png",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://fanphotos.netlify.app/",
+  },
+  {
+    title: "Pokemon Web",
+    url: "https://iili.io/HXCy7oP.png",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://github.com/KodingAffanMaulana/react-assignment-2-v4",
+  },
+  {
+    title: "FanYugiOh! Web",
+    url: "https://iili.io/HXCyYV1.png",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://fanyugioh.netlify.app/",
+  },
+  {
+    title: "Starwars Web",
+    url: "https://iili.io/HXCy1UJ.png",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://github.com/KodingAffanMaulana/react-exercise-7-v1",
+  },
+  {
+    title: "Kalkulator Web",
+    url: "https://iili.io/HXCyxcb.jpg",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://kodingaffanmaulana.github.io/My-Kalkulator/",
+  },
+  {
+    title: "BookShelf Web",
+    url: "https://iili.io/HXCy4xS.jpg",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://kodingaffanmaulana.github.io/bookshelf-apps/",
+  },
+  {
+    title: "LiburanLampung",
+    url: "https://iili.io/HXCyANV.jpg",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://kodingaffanmaulana.github.io/Projek2/",
+  },
+  {
+    title: "Coffe Shop",
+    url: "https://iili.io/HXCyRDB.jpg",
+    desc: "Lorem ipsum dolor sit amet adipisicing Animi consectetur!",
+    link: "https://kodingaffanmaulana.github.io/kedaiKopi/",
+  },
+]);
+</script>
 
 <style scoped></style>
