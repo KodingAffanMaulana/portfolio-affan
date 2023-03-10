@@ -12,8 +12,10 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
         { hid: 'description', name: 'description', content: 'portofolio nuxt' }
       ],
-      link: [ 
-        { rel: 'icon', type: 'image/png', href: '/affan.png' }
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/affan.png' },
+        { rel: "stylesheet", href: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" },
+        { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }
       ]
     },
     pageTransition: { name: 'page', mode: 'in-out' }

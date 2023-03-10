@@ -1,6 +1,6 @@
 <template>
-  <header class="shadow-lg bg-white text-xl">
-    <nav class="mx-auto px-2 sm:px-6 lg:px-16 bg-gray-800 flex justify-between fixed w-full z-10 sm:p-4">
+  <header class="shadow-lg bg-white text-[1rem]">
+    <nav class="mx-auto py-2 px-4 sm:px-32 bg-gray-800 flex justify-between fixed w-full z-10 sm:p-4">
       <NuxtLink to="/" class="font-bold text-white">Fan<span class="text-blue-500">Port</span></NuxtLink>
       <ul class="flex gap-4">
         <li><NuxtLink class="text-white" to="/">Home</NuxtLink></li>

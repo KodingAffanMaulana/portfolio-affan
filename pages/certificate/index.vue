@@ -3,7 +3,7 @@
     class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-12"
   >
     <div class="drop-shadow-2xl">
-      <section id="education" class="p-4 lg:p-8 bg-white">
+      <section id="education" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
         <div class="flex flex-col items-center justify-center text-center">
           <h1
             class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-4"
@@ -21,186 +21,21 @@
           <div
             class="grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 grid gap-6"
           >
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
+            <article
+              v-for="(sertif, index) in sertifs"
+              :key="index"
+              class="bg-gray-800 shadow-xl rounded-[15px] h-[auto] hover:transform hover:translate-x-4 hover:translate-y-4 hover:shadow-blue-400"
+            >
               <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-8COUVIOS.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  RestFul API
-                </h2>
-              </div>
-            </article>
-
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-CQGHWGCR.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Javascript
-                </h2>
-              </div>
-            </article>
-
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-GEHFUG9P.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Deployment
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-HTMXJ54R.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  React
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-M8PS9MAY.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Software Engineering
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-SEY4M8MA.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  HTML & CSS
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-UEFTDW6G.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  General Competence
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-WXL9RHS3.jpg"
-                alt="1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Node JS
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-cover rounded-t-[15px]"
-                src="@/assets/images/CERT-ZLUPX598.jpg"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Web Api
-                </h2>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <br /><br />
-
-        <div class="bg-black-100 p-2 lg:p-4 rounded-[15px]">
-          <h1
-            class="font-bold text-[16px] sm:text-2xl text-gray-700 pb-3 sm:pb-5 text-center"
-          >
-            Dicoding Academy
-          </h1>
-          <div
-            class="grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 grid gap-6"
-          >
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-fit rounded-t-[15px]"
-                src="@/assets/images/djs.jpg"
+                class="w-[100%] h-[200px] sm:h-[300px] object-fit rounded-t-[15px]"
+                :src="sertif.src"
                 alt="sertifikat1"
               />
               <div class="p-2 sm:p-5">
                 <h2
                   class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
                 >
-                  Javascript
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-fit rounded-t-[15px]"
-                src="@/assets/images/dfront.jpg"
-                alt="sertifikat1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Basic Frontend
-                </h2>
-              </div>
-            </article>
-            <article class="bg-gray-800 rounded-[15px] h-[auto]">
-              <img
-                class="w-[100%] h-[200px] sm:h-[400px] object-fit rounded-t-[15px]"
-                src="@/assets/images/dweb.jpg"
-                alt="sertifikat1"
-              />
-              <div class="p-2 sm:p-5">
-                <h2
-                  class="font-bold text-[13px] sm:text-xl text-teal-100 pb-1 text-center"
-                >
-                  Pemrograman Web
+                  {{ sertif.title }}
                 </h2>
               </div>
             </article>
@@ -209,9 +44,60 @@
       </section>
     </div>
   </main>
+  <Footer />
 </template>
 
 <script setup>
+const sertifs = ref([
+  {
+    title: "HTML & CSS",
+    src: "https://iili.io/HXxo7cv.jpg",
+  },
+  {
+    title: "Software Engineering",
+    src: "https://iili.io/HXxo5KJ.jpg",
+  },
+  {
+    title: "React JS",
+    src: "https://iili.io/HXxoToF.jpg",
+  },
+  {
+    title: "General Competence",
+    src: "https://iili.io/HXxoYSR.jpg",
+  },
+  {
+    title: "Javascript",
+    src: "https://iili.io/HXxoxwP.jpg",
+  },
+  {
+    title: "Rest API",
+    src: "https://iili.io/HXxozt1.jpg",
+  },
+  {
+    title: "Web API",
+    src: "https://iili.io/HXxolAN.jpg",
+  },
+  {
+    title: "Node JS",
+    src: "https://iili.io/HXxoc9p.jpg",
+  },
+  {
+    title: "Deployment",
+    src: "https://iili.io/HXxouMg.jpg",
+  },
+  {
+    title: "Pemrograman Web",
+    src: "https://iili.io/HXxoGoX.jpg",
+  },
+  {
+    title: "Javascript",
+    src: "https://iili.io/HXxo1tt.jpg",
+  },
+  {
+    title: "Frontend Basic",
+    src: "https://iili.io/HXxo0NI.jpg",
+  },
+]);
 </script>
 
 <style scoped></style>

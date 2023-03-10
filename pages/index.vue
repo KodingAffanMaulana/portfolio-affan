@@ -1,9 +1,9 @@
 <template>
   <div class="p-0 m-0 box-border bg-red">
-    <Hero class="sm:px-32" />
-    <ExperienceSection class="sm:px-32 sm:pb-32" />
-    <Skills class="sm:px-32 sm:pb-32" />
-    <Educational class="sm:px-32 sm:pb-32" />
+    <Hero class="sm:px-32 px-16" />
+    <ExperienceSection class="px-16 sm:px-32 pb-16 sm:pb-32" />
+    <Skills class="px-16 sm:px-32 pb-16 sm:pb-32" />
+    <Educational class=" px-16 sm:px-32 pb-16 sm:pb-32" />
     <Footer />
   </div>
 </template>
