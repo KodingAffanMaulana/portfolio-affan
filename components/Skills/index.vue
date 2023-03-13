@@ -9,7 +9,9 @@
       <h4 class="font-bold text-blue-600">Skills</h4>
     </div> -->
     <div
-      class="flex flex-row justify-center align-center gap-[4em] flex-wrap m-[0.5em] shadow-2xl border-black p-2"
+      class="flex flex-row rounded-xl p-[auto] py-[4rem] text-[12px] md:text-[1rem] md:px-2 justify-center align-center gap-[4em] flex-wrap m-[0.5em] shadow-2xl border-black p-2"
+      data-aos="flip-left"
+      data-aos-duration="500"
     >
       <article class="flex gap-1 hover:shadow-xl">
         <i class="devicon-html5-plain text-5xl text-center"></i>

@@ -24,11 +24,13 @@
   "dependencies": {
     "@gits-id/ui-nuxt": "^0.16.1",
     "@nuxtjs/google-fonts": "^2.0.0",
+    "aos": "^2.3.4",
     "express": "^4.18.2",
     "particles.js": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@types/aos": "^3.0.4",
     "nuxt": "^3.2.0",
     "sass": "^1.58.0",
     "vue-particles": "^1.0.9"

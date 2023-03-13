@@ -3,6 +3,8 @@
     <VCard
       shadow="2xl"
       class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      data-aos="fade-right"
+      data-aos-duration="500"
     >
       <h3 class="font-bold">Software Engineer</h3>
       <p>PT GITS Indonesia</p>
@@ -18,6 +20,8 @@
     <VCard
       shadow="2xl"
       class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      data-aos="fade-left"
+      data-aos-duration="500"
     >
       <h3 class="font-bold">Frontend Engineering</h3>
       <p>PT Ruang Raya Indonesia</p>
@@ -33,6 +37,8 @@
     <VCard
       shadow="2xl"
       class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      data-aos="fade-up"
+      data-aos-duration="500"
     >
       <h3 class="font-bold">Teknik Informatika</h3>
       <p>Universitas Lampung</p>

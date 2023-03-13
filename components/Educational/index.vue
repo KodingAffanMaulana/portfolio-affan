@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main data-aos="fade-up">
     <div class="mb-5 flex flex-col items-center justify-center text-center">
       <img
         src="@/assets/icons/education.png"
@@ -11,7 +11,11 @@
 
     <div class="sm:flex sm:justify-center">
       <div class="divSatu flex sm:flex-col sm:flex-end gap-4 mb-4 sm:mb-0">
-        <article>
+        <article
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="500"
+        >
           <img
             src="@/assets/images/unila.jpeg"
             alt="unila"
@@ -19,7 +23,11 @@
           />
         </article>
         <br />
-        <article>
+        <article
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="500"
+        >
           <img
             src="@/assets/images/sma.jpeg"
             alt="sma"
@@ -27,7 +35,11 @@
           />
         </article>
         <br />
-        <article>
+        <article
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="500"
+        >
           <img
             rounded="2xl"
             src="@/assets/images/smp.jpg"
@@ -40,6 +52,7 @@
       <div class="divDua sm:flex sm:flex-start flex-col gap-4">
         <article
           class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          data-aos="fade-up-left"
         >
           <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
             University of Lampung
@@ -55,6 +68,7 @@
         <br />
         <article
           class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          data-aos="fade-up-left"
         >
           <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
             YP Unila Senior High School
@@ -72,6 +86,7 @@
         <br />
         <article
           class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          data-aos="fade-up-left"
         >
           <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
             Junior High School 2 Penawartama

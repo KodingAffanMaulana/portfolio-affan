@@ -1,6 +1,6 @@
 <template>
   <main
-    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-12"
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-28"
   >
     <div class="drop-shadow-2xl">
       <section id="project" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
@@ -16,7 +16,8 @@
           <article
             v-for="(project, index) in projects"
             :key="index"
-            class="pb-4 lg:pb-8 shadow-xl hover:border-2 hover:border-blue-500 rounded-xl hover:shadow-blue-200"
+            class="pb-4 lg:pb-8 shadow-xl hover:border-[0.1rem] hover:border-blue-500 rounded-xl hover:shadow-blue-200"
+            data-aos="flip-left" 
           >
             <div class="p-4">
               <h2 class="font-bold text-[13px] sm:text-xl text-center pb-2">

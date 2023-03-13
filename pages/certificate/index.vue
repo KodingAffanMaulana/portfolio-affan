@@ -1,6 +1,6 @@
 <template>
   <main
-    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-12"
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-28"
   >
     <div class="drop-shadow-2xl">
       <section id="education" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
@@ -13,21 +13,16 @@
           <br />
         </div>
         <div class="bg-blue-50 p-2 lg:p-4 rounded-[15px]">
-          <h1
-            class="font-bold text-[16px] sm:text-2xl text-gray-700 pb-3 sm:pb-5 text-center"
-          >
-            Ruangguru CAMP
-          </h1>
           <div
             class="grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 grid gap-6"
           >
             <article
               v-for="(sertif, index) in sertifs"
               :key="index"
-              class="bg-gray-800 shadow-xl rounded-[15px] h-[auto] hover:transform hover:translate-x-4 hover:translate-y-4 hover:shadow-blue-400"
+              class="bg-gray-800 shadow-xl rounded-[15px] h-[auto] hover:transform hover:translate-x-4 hover:translate-y-4 hover:shadow-blue-400 hover:"
             >
               <img
-                class="w-[100%] h-[200px] sm:h-[300px] object-fit rounded-t-[15px]"
+                class="w-[100%] object-contain rounded-t-[15px]"
                 :src="sertif.src"
                 alt="sertifikat1"
               />
