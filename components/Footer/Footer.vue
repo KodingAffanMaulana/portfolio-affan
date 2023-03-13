@@ -1,5 +1,5 @@
 <template>
-  <footer class="shadow-lg bg-gray-900 text-xl p-4">
+  <footer class="shadow-lg bg-gray-900 text-xl p-4 mx-auto">
     <ul class="flex justify-center gap-8">
       <ul>
         <NuxtLink class="text-white" to="">
@@ -39,7 +39,7 @@
       </li>
     </ul>
 
-    <p class="text-center p-2 pb-0  text-[1rem] text-white">Affan Maulana 💟 2023</p>
+    <p class="text-center p-2 pb-0  text-[1rem] text-white">Affan Maulana &#128525; 2023</p>
   </footer>
 </template>
 

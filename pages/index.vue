@@ -1,11 +1,17 @@
 <template>
-  <div class="p-0 m-0 box-border bg-red">
-    <Hero class="sm:px-32 px-16" />
-    <ExperienceSection class="px-16 sm:px-32 pb-16 sm:pb-32" />
-    <Skills class="px-16 sm:px-32 pb-16 sm:pb-32" />
-    <Educational class="px-16 sm:px-32 pb-16 sm:pb-32" />
-    <Footer />
-  </div>
+  <main
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-[5.5rem] "
+  >
+    <div class="drop-shadow-2xl">
+      <section id="project" class="p-2 bg-white">
+        <Hero class="sm:px-32 px-16" />
+        <ExperienceSection class="px-16 sm:px-32 pb-16 sm:pb-32" />
+        <Skills class="px-16 sm:px-32 pb-16 sm:pb-32" />
+        <Educational class="px-16 sm:px-32 pb-16 sm:pb-32" />
+      </section>
+    </div>
+  </main>
+  <Footer />
 </template>
 
 <script setup></script>

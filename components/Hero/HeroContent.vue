@@ -1,5 +1,5 @@
 <template>
-  <div class="hero__content md:w-1/2 md:pr-5">
+  <div class="md:w-1/2 md:pr-5">
     <h4 class="text-blue-600 font-bold md:mb-3">Hello, I'am Affan Maulana</h4>
     <h2 class="text-2xl md:text-4xl my-3 md:mb-5 leading-tight font-bold">
       Programming is not about Typing. It's about Thinking.

@@ -2,7 +2,7 @@
   <div class="experience__group flex flex-wrap justify-center">
     <VCard
       shadow="2xl"
-      class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      class="md:w-[45%] lg:w-[35%] text-left mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
       data-aos="fade-right"
       data-aos-duration="500"
     >
@@ -19,7 +19,7 @@
     </VCard>
     <VCard
       shadow="2xl"
-      class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      class="md:w-[45%] lg:w-[35%] text-left mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
       data-aos="fade-left"
       data-aos-duration="500"
     >
@@ -36,7 +36,7 @@
     </VCard>
     <VCard
       shadow="2xl"
-      class="md:w-[45%] lg:w-[35%] text-left p-5 mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
+      class="md:w-[45%] lg:w-[35%] text-left mb-2 md:m-3 shadow-md rounded border-t-[6px] border-blue-600 md:border-none"
       data-aos="fade-up"
       data-aos-duration="500"
     >
