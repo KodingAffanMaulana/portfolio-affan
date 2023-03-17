@@ -16,30 +16,34 @@
         >
           <div class="h-[300px]">
             <img
-              :src="`https://source.unsplash.com/random/300×300?${article.tags[1]}`"
+              :src="`https://source.unsplash.com/random/?${article.tags[1]}`"
               class="w-[800px] h-[300px] object-cover rounded-t-xl"
               alt="photos"
             />
           </div>
           <div class="p-4">
+            <p class="text-purple-500 text-[0.8rem] pb-2 font-mono">
+              Phoenix Baker • 19 Jan 2022
+            </p>
             <NuxtLink :to="`/articles/${index}`">
-              <p class="text-purple-500 text-[0.8rem] pb-2 font-mono">
-                Phoenix Baker • 19 Jan 2022
-              </p>
-              <h1 class="text-2xl font-bold">{{ article.title }}</h1>
-              <h1 class="text-gray-600 pb-4 text-justify text-clip">
-                {{ article.body }}
+              <h1 class="text-2xl font-bold hover:underline">
+                {{ article.title }}
               </h1>
-              <div class="flex flex-row gap-2">
-                <div v-for="tag in article.tags" class="">
-                  <div class="font-[Inter] text-white">
-                    <button class="px-2 py-1 bg-blue-300 rounded-lg">
-                      {{ tag }}
-                    </button>
-                  </div>
+            </NuxtLink>
+            <h1 class="text-gray-600 pb-4 text-justify text-clip">
+              {{ article.body }}
+            </h1>
+            <div class="flex flex-row gap-2">
+              <div v-for="tag in article.tags" class="">
+                <div class="font-[Inter] text-white">
+                  <button
+                    class="px-2 py-1 bg-blue-500 rounded-lg hover:bg-blue-900 hover:text-white"
+                  >
+                    {{ tag }}
+                  </button>
                 </div>
               </div>
-            </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
@@ -48,9 +52,7 @@
 </template>
 
 <script setup>
-const { pending, data: articles } = await useFetch(
-  "https://dummyjson.com/posts"
-);
+const { pending, data: articles } = useFetch("https://dummyjson.com/posts");
 
 // const filteredArticles = articles.posts.filter((article) => article.title!=null)
 

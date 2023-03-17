@@ -1,13 +1,16 @@
 <template>
   <div class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-28">
     <div class="">
-      <div class="h-[300px] flex justify-center">
-        <img
-          :src="`https://source.unsplash.com/random/300×300`"
-          class="w-[800px] h-[300px] object-cover"
-          alt="photos"
-        />
+      <div class="py-8 px-72">
+        <div
+          class="w-full h-[30rem] bg-[url('https://source.unsplash.com/random/')]"
+        ></div>
       </div>
+      <!-- <img
+          src="https://source.unsplash.com/random/"
+          class="object-cover"
+          alt="photos"
+        /> -->
       <div class="p-7">
         <h2 class="text-4xl my-7">{{ articles.title }}</h2>
         <p class="text-xl my-7">Price - ${{ articles.body }}</p>
