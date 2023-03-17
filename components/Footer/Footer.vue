@@ -5,7 +5,7 @@
         <a
           href="https://github.com/KodingAffanMaulana"
           target="_blank"
-          class="fa fa-github hover:text-white transition duration-200 ease-in"
+          class="fa fa-github hover:text-black transition duration-200 ease-in"
         ></a>
       </ul>
       <li>
