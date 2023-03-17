@@ -26,4 +26,8 @@
   opacity: 0;
   filter: blur(1rem);
 }
+
+html, body {
+  overflow-x: hidden;
+}
 </style>
