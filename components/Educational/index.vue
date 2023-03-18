@@ -19,7 +19,7 @@
           <img
             src="@/assets/images/unila.jpeg"
             alt="unila"
-            class="object-fit cover w-[300px] rounded-2xl"
+            class="object-fit cover sm:w-[300px] rounded-2xl"
           />
         </article>
         <br />
@@ -31,7 +31,7 @@
           <img
             src="@/assets/images/sma.jpeg"
             alt="sma"
-            class="object-fit cover w-[300px] rounded-2xl"
+            class="object-fit cover sm:w-[300px] rounded-2xl"
           />
         </article>
         <br />
@@ -44,19 +44,19 @@
             rounded="2xl"
             src="@/assets/images/smp.jpg"
             alt="unila"
-            class="object-fit cover w-[300px] rounded-2xl"
+            class="object-fit cover sm:w-[300px] rounded-2xl"
           />
         </article>
       </div>
       <!-- <hr class="vertical text-black rotate-90 w-[600px] h-[2px] border-[4px] ml-8 mt-[18rem]" /> -->
-      <div class="divDua sm:flex sm:flex-start flex-col gap-4">
+      <div class="sm:flex sm:flex-start flex-col gap-4">
         <article
-          class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          class="p-2 lg:p-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none sm:w-[300px] sm:h-[180px] lg:w-[auto]"
           data-aos="fade-up-left"
         >
-          <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
+          <h2 class="font-bold text-[13px] sm:text-xl text-center">
             University of Lampung
-          </h2>
+          </h2><br />
           <p class="text-[10px] sm:text-[18px] sm:font-medium">
             Informatics Engineering
           </p>
@@ -67,12 +67,12 @@
         </article>
         <br />
         <article
-          class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          class="p-2 lg:p-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none sm:w-[300px] sm:h-[180px] lg:w-[auto]"
           data-aos="fade-up-left"
         >
-          <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
+          <h2 class="font-bold text-[13px] sm:text-xl text-center">
             YP Unila Senior High School
-          </h2>
+          </h2><br />
           <p class="text-[10px] sm:text-[18px] sm:font-medium">
             Matematics and Natural Science
           </p>
@@ -85,12 +85,12 @@
         </article>
         <br />
         <article
-          class="py-4 px-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none"
+          class="p-2 lg:p-4 shadow-md rounded border-t-[6px] border-blue-900 md:border-none sm:w-[300px] sm:h-[180px] lg:w-[auto]"
           data-aos="fade-up-left"
         >
-          <h2 class="font-bold text-[13px] sm:text-xl text-center py-4">
+          <h2 class="font-bold text-[13px] sm:text-xl text-center">
             Junior High School 2 Penawartama
-          </h2>
+          </h2><br />
           <p class="text-[10px] sm:text-[18px] sm:font-medium">
             Natural Science
           </p>
@@ -105,15 +105,3 @@
     </div>
   </main>
 </template>
-
-<script setup></script>
-
-<style scoped>
-/* hr.vertical {
-  background-color: #000000;
-  color: #000000;
-  width: 600px;
-  height: 2px;
-  border: 4px;
-} */
-</style>

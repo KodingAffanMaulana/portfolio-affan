@@ -1,9 +1,9 @@
 <template>
   <main
-    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-28"
+    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 pt-[4.5rem] sm:p-8 sm:pt-[5.5rem]"
   >
     <div class="drop-shadow-2xl">
-      <section id="project" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
+      <section id="project" class="p-8 lg:px-[5rem] lg:pb-16 bg-white">
         <div class="flex flex-col items-center justify-center text-center">
           <h1
             class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-8"

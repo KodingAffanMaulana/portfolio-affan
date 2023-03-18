@@ -1,5 +1,5 @@
 <template>
-    <div class="hero flex flex-col-reverse md:flex-row items-center h-screen max-h-[700px] sm:max-h-[600px] overflow-hidden md:relative justify-center md:justify-between text-center md:text-left">
+    <div class="hero flex flex-col-reverse sm:flex-column lg:flex-row items-center sm:pt-0 lg:h-screen sm:max-h-[100%] lg:max-h-[600px] lg:relative justify-center md:justify-between text-center sm:text-justify lg:text-left">
             <HeroContent />
             <HeroImages />
         </div>

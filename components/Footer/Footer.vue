@@ -1,6 +1,6 @@
 <template>
   <footer class="shadow-lg bg-gray-900 text-xl p-4 mx-auto">
-    <ul class="flex justify-center gap-8">
+    <ul class="flex justify-center gap-8 text-white">
       <ul>
         <a
           href="https://github.com/KodingAffanMaulana"
@@ -9,21 +9,21 @@
         ></a>
       </ul>
       <li>
-        ><a
+        <a
           href="https://www.instagram.com/affan_maulaana?r=nametagg"
           target="_blank"
           class="fa fa-instagram hover:text-black transition duration-200 ease-in"
         ></a>
       </li>
       <li>
-        ><a
+        <a
           href="https://www.linkedin.com/in/affan-maulana-41a1a2194/"
           target="_blank"
           class="fa fa-linkedin hover:text-black transition duration-200 ease-in"
         ></a>
       </li>
       <li>
-        ><a
+        <a
           href="https://api.whatsapp.com/send?phone=6289619258610"
           target="_blank"
           class="fa fa-whatsapp hover:text-black transition duration-200 ease-in"
@@ -39,4 +39,8 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style>
+html, body {
+  overflow-x: hidden;
+}
+</style>

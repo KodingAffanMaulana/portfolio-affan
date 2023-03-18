@@ -6,7 +6,7 @@
 
 <script setup>
 const { id } = useRoute().params;
-const url = "https://dummyjson.com/posts/" + id;
+const url = "https://dummyjson.com/posts/" + (id+1);
 
 // Fetch data
 const { data: articles } = await useFetch(url, { key: id });

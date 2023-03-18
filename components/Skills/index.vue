@@ -1,15 +1,7 @@
 <template>
   <div>
-    <!-- <div class="mb-5 flex flex-col items-center justify-center text-center">
-      <img
-        src="@/assets/icons/tools.png"
-        alt="logo"
-        class="w-16 mb-3 mx-auto"
-      />
-      <h4 class="font-bold text-blue-600">Skills</h4>
-    </div> -->
     <div
-      class="flex flex-row rounded-xl p-[auto] py-[4rem] text-[12px] md:text-[1rem] md:px-2 justify-center align-center gap-[4em] flex-wrap m-[0.5em] shadow-2xl border-black p-2"
+      class="grid sm:flex rounded-xl p-[auto] py-[4rem] text-[12px] md:text-[1rem] md:px-2 justify-center align-center gap-[4em] flex-wrap m-[0.5em] shadow-2xl border-black p-2"
       data-aos="flip-left"
       data-aos-duration="500"
     >
@@ -36,7 +28,7 @@
       </article>
       <article class="flex gap-1 hover:shadow-xl">
         <i class="devicon-tailwindcss-plain text-5xl text-center"></i>
-        <div class="">
+        <div>
           <h4 class="font-bold">Tailwind</h4>
           <small class="text-light">Experienced</small>
         </div>
@@ -65,7 +57,3 @@
     </div>
   </div>
 </template>
-
-<script setup></script>
-
-<style scoped></style>
