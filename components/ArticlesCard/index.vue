@@ -1,20 +1,20 @@
 <template>
   <div>
     <!-- <div v-for="(article, index) in articles" :key="article.id" class="shadow-xl rounded-xl"> -->
-    <div class="h-[300px]">
+    <div class="lg:h-[300px]">
       <img :src="`https://source.unsplash.com/random/?${article.tags[1]}`"
-        class="w-[800px] h-[300px] object-cover rounded-t-xl" alt="photos" />
+        class="w-full lg:w-[800px] sm:h-[200px] lg:h-[300px] max-h-[200px] object-cover rounded-t-xl" alt="photos" />
     </div>
     <div class="p-4">
       <p class="text-purple-500 text-[0.8rem] pb-2 font-mono">
         Affan Maulana • 19 Mar 2022
       </p>
       <NuxtLink :to="`/articles/${article.id}`">
-        <h1 class="text-2xl font-bold hover:underline">
+        <h1 class="text-xl sm:text-2xl font-bold hover:underline">
           {{ article.title }}
         </h1>
       </NuxtLink>
-      <h1 class="text-gray-600 pb-4 text-justify text-clip">
+      <h1 class="text-gray-600 pb-4 text-justify">
         {{ article.body }}
       </h1>
       <div class="flex flex-row gap-2">
