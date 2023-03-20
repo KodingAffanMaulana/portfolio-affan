@@ -1,33 +1,33 @@
 <template>
-  <main
-    class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 pt-[4.5rem] sm:p-8 sm:pt-[5.5rem] "
-  >
-    <div class="drop-shadow-2xl">
-      <section class="p-2 bg-white">
-        <Hero class="lg:px-32 px-4 pb-8" />
-        <ExperienceSection class="px-4 lg:px-32 pb-8 lg:pb-32" />
-        <Skills class="px-4 lg:px-32 pb-8 sm:pb-32" />
-        <Educational class="px-4 lg:px-32 pb-4 lg:pb-32" />
-      </section>
-    </div>
-  </main>
-  <Footer />
+  <div>
+    <main class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 pt-[4.5rem] sm:p-8 sm:pt-[5.5rem] ">
+      <div class="drop-shadow-2xl">
+        <section class="p-2 bg-white">
+          <Hero class="lg:px-32 px-4 pb-8" />
+          <ExperienceSection class="px-4 lg:px-32 pb-8 lg:pb-32" />
+          <Skills class="px-4 lg:px-32 pb-8 sm:pb-32" />
+          <Educational class="px-4 lg:px-32 pb-4 lg:pb-32" />
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </div>
 </template>
 
-<script setup></script>
-
-<style scoped>
+<style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 1s;
+  transition: all 0.4s;
 }
+
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 </style>
