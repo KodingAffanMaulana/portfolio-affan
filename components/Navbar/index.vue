@@ -1,6 +1,6 @@
 <template>
   <nav class="py-4 px-4 sm:px-32 bg-gray-800 flex justify-between w-full fixed z-10">
-    <NuxtLink to="/" class="font-bold text-white">Fan<span class="text-blue-500">Port</span></NuxtLink>
+    <NuxtLink to="/" class="font-bold text-white">Fan<span class="text-blue-600">Port</span></NuxtLink>
     <button @click="isMenuOpen = true" class="block sm:hidden text-white  ">
       <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round">

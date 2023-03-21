@@ -4,12 +4,7 @@
     <img
       src="~/assets/images/avatar2.png"
       alt="Profile"
-      class="md:w-[400px]"
-    />  
-    <img
-      src="~/assets/images/avatar2.png"
-      alt="Profile"
-      class="absolute md:w-[400px] t-[50%]"
-    />  
+      class="w-[200px] md:w-[400px]"
+    /> 
   </div>
 </template>

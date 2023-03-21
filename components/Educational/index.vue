@@ -5,6 +5,7 @@
         src="@/assets/icons/education.png"
         alt="logo"
         class="w-16 mb-3 mx-auto"
+        format="webp"
       />
       <h4 class="font-bold text-blue-600">Educational</h4>
     </div>
@@ -20,6 +21,7 @@
             src="@/assets/images/unila.jpeg"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
+            format="webp"
           />
         </article>
         <br />
@@ -32,6 +34,7 @@
             src="@/assets/images/sma.jpeg"
             alt="sma"
             class="object-fit cover sm:w-[300px] rounded-2xl"
+            format="webp"
           />
         </article>
         <br />
@@ -45,6 +48,7 @@
             src="@/assets/images/smp.jpg"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
+            format="webp"
           />
         </article>
       </div>

@@ -9,7 +9,7 @@
       studying at the University of Lampung. I have an interest in the field of
       Frontend Web Developer.
     </p>
-    <div class="flex justify-cente lg:justify-start ">
+    <div class="flex justify-center lg:justify-start ">
       <a href="https://google.com"
         class="px-3 py-1.5 sm:px-6 sm:py-3 text-[12px] sm:text-sm rounded-full bg-blue-600 text-white rounded ease-in duration-300 hover:bg-blue-700">My
         Resume</a>
