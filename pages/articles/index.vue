@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-if="pending" class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 pt-[4.5rem] sm:p-8 sm:pt-[5.5rem]">
-      <div class="sm:h-[20rem] grid content-center px-[30rem]">
+    <div v-if="pending" class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] sm:pt-[5.5rem]">
+      <div class="h-[40rem] sm:h-[20rem] grid content-center">
         <div>
           <p class="text-center text-4xl font-bold rounded-md">Loading...</p>
         </div>
@@ -67,7 +67,7 @@
 
 
           <div class="grid lg:grid-cols-2 gap-4">
-            <div v-for="(article, index) in articles.posts" :key="index" class="shadow-xl rounded-xl">
+            <div v-for="(article, index) in articles.posts" :key="index" class="shadow-xl rounded-xl" data-aos="flip-up">
               <ArticlesCard :article="article" />
             </div>
           </div>

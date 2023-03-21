@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <div v-for="(article, index) in articles" :key="article.id" class="shadow-xl rounded-xl"> -->
-    <div class="lg:h-[300px]">
+    <div class="lg:h-[200px]">
       <img :src="`https://source.unsplash.com/random/?${article.tags[1]}`"
         class="w-full lg:w-[800px] sm:h-[200px] lg:h-[300px] max-h-[200px] object-cover rounded-t-xl" alt="photos" />
     </div>
