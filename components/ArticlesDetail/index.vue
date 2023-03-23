@@ -1,6 +1,6 @@
 <template>
   <div class="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-8 sm:pt-24 pt-24">
-    <div class="p-8 shadow-2xl">
+    <div class="p-8 lg:px-24 shadow-2xl">
       <h2 class="text-xl font-bold sm:text-4xl my-7 text-center">{{ articles.title }}</h2>
       <div class="py-8">
         <div
