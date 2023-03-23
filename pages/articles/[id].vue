@@ -5,6 +5,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+  layout: 'articles'
+})
+
 const { id } = useRoute().params;
 const url = "https://dummyjson.com/posts/" + (id+1);
 
@@ -14,6 +18,8 @@ const { data: articles } = await useFetch(url, { key: id });
 if (!articles.value) {
   throw createError({ statusCode: 404, statusMessage: "Product not found" });
 }
+
+
 </script>
 
 <style scoped></style>

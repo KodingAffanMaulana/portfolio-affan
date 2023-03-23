@@ -1,5 +1,5 @@
 <template>
-  <header class="text-[1rem]">
+  <header class="text-sm font-medium">
     <Navbar class="text-white" />
   </header>
 
