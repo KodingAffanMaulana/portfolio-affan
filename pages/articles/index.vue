@@ -20,12 +20,12 @@
 
             <div
               class="flex sm:flex sm:flex-row sm:items-center lg:py-12px px-14 gap-[8px] sm:justify-center justify-center sm:items-center sm:justify-items-stretch">
-              <div class="sm:w-5/6"><input class="w-[100%] text-[#667085] rounded-[8px] h-[24px] sm:h-[48px]" type="email"
-                  name="email" id="email" placeholder="Enter your email">
+              <div class="sm:w-5/6 pt-2 pb-2"><input class="w-[100%] text-[#667085] rounded-[8px] h-[24px] sm:h-[48px]" type="search"
+                  name="email" id="text" placeholder="Search">
               </div>
-              <div class="sm:w-1/6"><button
-                  class="bg-[#7F56D9] w-[50px] sm:w-[100%] rounded-[8px] h-[24px] sm:h-[48px] items-center text-[12px] text-white"
-                  type="submit">Start</button></div>
+              <div class="sm:w-1/6 pt-1.5 pb-1.5"><button
+                  class="bg-[#7F56D9] w-[100%] px-3 sm:w-[100%] rounded-[8px] h-[24px] sm:h-[48px] items-center text-[12px] text-white"
+                  type="submit">Search</button></div>
             </div>
 
             <p class="sm:text-[14px] text-[12px] text-center">
