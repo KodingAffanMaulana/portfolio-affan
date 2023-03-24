@@ -6,7 +6,7 @@
       data-aos-duration="500"
     >
       <img
-        src="@/assets/icons/suitcase.png"
+        src="@/assets/icons/suitcase.webp"
         alt="logo"
         class="w-16 mb-3 mx-auto"
       />
