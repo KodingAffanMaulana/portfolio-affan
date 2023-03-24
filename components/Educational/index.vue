@@ -2,7 +2,7 @@
   <main data-aos="fade-up">
     <div class="mb-5 flex flex-col items-center justify-center text-center">
       <img
-        src="@/assets/icons/education.png"
+        src="@/assets/icons/education.webp"
         alt="logo"
         class="w-16 mb-3 mx-auto"
         format="webp"
@@ -18,7 +18,7 @@
           data-aos-duration="500"
         >
           <img
-            src="@/assets/images/unila.jpeg"
+            src="@/assets/images/unila.webp"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
             format="webp"
@@ -31,7 +31,7 @@
           data-aos-duration="500"
         >
           <img
-            src="@/assets/images/sma.jpeg"
+            src="@/assets/images/sma.webp"
             alt="sma"
             class="object-fit cover sm:w-[300px] rounded-2xl"
             format="webp"
@@ -45,7 +45,7 @@
         >
           <img
             rounded="2xl"
-            src="@/assets/images/smp.jpg"
+            src="@/assets/images/smp.webp"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
             format="webp"
