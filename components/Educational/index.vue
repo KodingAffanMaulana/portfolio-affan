@@ -5,7 +5,6 @@
         src="@/assets/icons/education.webp"
         alt="logo"
         class="w-16 mb-3 mx-auto"
-        format="webp"
       />
       <h4 class="font-bold text-blue-600">Educational</h4>
     </div>
@@ -16,12 +15,14 @@
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="500"
+          class="hidden sm:block"
         >
           <img
             src="@/assets/images/unila.webp"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
-            format="webp"
+            width="100%"
+            height="100%"
           />
         </article>
         <br />
@@ -29,12 +30,14 @@
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="500"
+          class="hidden sm:block"
         >
           <img
             src="@/assets/images/sma.webp"
             alt="sma"
             class="object-fit cover sm:w-[300px] rounded-2xl"
-            format="webp"
+            width="100%"
+            height="100%"
           />
         </article>
         <br />
@@ -42,13 +45,15 @@
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="500"
+          class="hidden sm:block"
         >
           <img
             rounded="2xl"
             src="@/assets/images/smp.webp"
             alt="unila"
             class="object-fit cover sm:w-[300px] rounded-2xl"
-            format="webp"
+            width="100%"
+            height="100%"
           />
         </article>
       </div>
@@ -109,3 +114,5 @@
     </div>
   </main>
 </template>
+
+
