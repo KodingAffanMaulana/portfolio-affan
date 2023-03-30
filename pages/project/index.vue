@@ -35,7 +35,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 const projects = ref([
   {
     title: "Gallery Photo Web",
@@ -87,5 +87,3 @@ const projects = ref([
   },
 ]);
 </script>
-
-<style scoped></style>
